@@ -1,0 +1,32 @@
+{
+  "deployments": [
+    {
+      "action": "instantiate",
+      "txhash": "A70E27235A87891864518EBBA836E2AF008F9B2BC419070F21AA1B601934D575",
+      "wasm": {
+        "codeId": 3187
+      },
+      "contract": {
+        "name": "callbacktest2",
+        "version": "0.1.0",
+        "address": "archway1dxhh0jutjwcsdhtyq2cuyzfzl0x2m7rhqnf90ed4dvf58ahmed8qaa5ydz",
+        "admin": "archway12qj4v8jg5pxk6gsqct09sf9szhwql69xmf9fh4"
+      },
+      "msg": {
+        "count": 0
+      }
+    },
+    {
+      "action": "store",
+      "txhash": "170B196C562CA1A8345BAC49BE0137C5FB5FEB913CF6D7869DFC9A004CD9B538",
+      "wasm": {
+        "codeId": 3187,
+        "checksum": "eb32182749b65449ed9da5c5d8805efc04cbaaa0d9a922ecff27c37493a80987"
+      },
+      "contract": {
+        "name": "callbacktest2",
+        "version": "0.1.0"
+      }
+    }
+  ]
+}
